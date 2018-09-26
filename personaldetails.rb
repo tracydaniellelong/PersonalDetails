@@ -1,6 +1,9 @@
-def details()
-	puts "Tracy"
-	puts "Chapmanville, WV"
+def details(name, address)
+	puts "#{name}"
+	puts "#{address}"
 end
 
-p details	
+my_name = "Tracy"
+my_address = "Chapmanville, WV"
+
+details(my_name, my_address)	
