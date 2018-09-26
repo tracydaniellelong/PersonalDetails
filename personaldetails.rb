@@ -1,9 +1,11 @@
-def details(name, address)
-	puts "#{name}"
-	puts "#{address}"
+def compare(arg1, arg2)
+	if arg1 == arg2
+		print "True"
+	else
+		print "False"
+	end
 end
 
-my_name = "Tracy"
-my_address = "Chapmanville, WV"
+compare(7, 9)
 
-details(my_name, my_address)	
+
